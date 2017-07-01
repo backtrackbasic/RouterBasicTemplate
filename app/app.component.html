@@ -1,0 +1,48 @@
+<!--The whole content below can be removed with the new code
+<nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+   <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a routerLink="who" class="nav-item">Home</a>
+      </li>
+      <li class="nav-item">
+        <a routerLink="what" class="nav-link">About</a>
+      </li>
+      <li class="nav-item">
+        <a  routerLink="where" class="nav-link">Contact</a>
+      </li>
+     </ul>
+  </div>
+  
+</nav>
+-->
+<!-- Navbar -->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Me</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a routerLink="who">WHO</a></li>
+        <li><a routerLink="what">WHAT</a></li>
+        <li><a routerLink="where">WHERE</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<router-outlet></router-outlet>
+<!-- Footer -->
+<footer class="container-fluid bg-4 text-center Footer">
+  <p>Bootstrap Theme Made By testing in AngularJs <a href="#">Angular Routing</a></p> 
+</footer>

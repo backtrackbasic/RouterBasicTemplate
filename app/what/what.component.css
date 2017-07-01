@@ -1,0 +1,19 @@
+
+h1,h2,h3,h4,h5,h6,p
+{
+    color:#000;
+}
+.Jumo
+{
+    background-color:red;
+}
+
+.TemplateColumn
+{
+    border-right: 2px solid;
+}
+
+.TemplateColumn:last-child 
+{
+    border-right: 0px;
+}
